@@ -7,7 +7,7 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import ParticlesBg from 'particles-bg';
 import Clarifai from 'clarifai';
-
+window.process = {};
 
 
 const app = new Clarifai.App({
